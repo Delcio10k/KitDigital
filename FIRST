@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kit Digital: Lucre com Ebooks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #00b894;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .highlight {
+      color: #00b894;
+      font-weight: bold;
+    }
+    .img-banner {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    ul.ebooks {
+      list-style-type: square;
+      padding-left: 20px;
+      margin: 20px 0;
+    }
+    ul.ebooks li {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+    .pix-section {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .pix-section img {
+      width: 180px;
+      margin-top: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .cta a {
+      background-color: #00b894;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background-color: #019172;
+    }
+    .testimonials {
+      background-color: #f1fdfb;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+    .testimonial {
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Comece a Lucrar com Produtos Digitais HOJE</h1>
+    <p>
+      Receba 5 Ebooks incríveis por apenas
+      <span class="highlight">R$47,00</span> e comece a vender ainda hoje!
+    </p>
+  </header>
+  <div class="container">
+    <img
+      src="https://images.unsplash.com/photo-1603570419960-4d5f2c95f6e2?fit=crop&w=1050&q=80"
+      alt="Ebooks"
+      class="img-banner"
+    />
+
+    <h2>O que está incluso no <span class="highlight">Kit Digital</span>:</h2>
+    <ul class="ebooks">
+      <li>📘 30 Receitas Fitness Baratas</li>
+      <li>💼 Como Começar a Vender Online do Zero</li>
+      <li>🤖 Guia Rápido para Criar Produtos Digitais com IA</li>
+      <li>💡 Ideias de Renda Extra para 2025</li>
+      <li>📊 Organize Suas Finanças em 7 Dias</li>
+    </ul>
+
+    <div class="testimonials">
+      <h3>O que dizem:</h3>
+      <p class="testimonial">“Vendi 3 kits no primeiro dia! Material incrível e com ótima apresentação.” – <strong>Luciana, SP</strong></p>
+      <p class="testimonial">“Esse conteúdo me ajudou a montar meu primeiro produto digital. Recomendo demais!” – <strong>João, MS</strong></p>
+    </div>
+
+    <h2 style="text-align: center; margin-top: 40px;">
+      Valor: <span class="highlight">R$47,00</span>
+    </h2>
+
+    <div class="pix-section">
+      <p><strong>Pagamento via Pix:</strong></p>
+      <img src="qrcode_pix_47.png" alt="QR Code Pix" />
+      <p>Chave Pix: <strong>67998903803</strong></p>
+    </div>
+
+    <div class="cta">
+      <a href="https://wa.me/5567998903803" target="_blank">
+        Clique para Receber Agora pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</body>
+</html>
